@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+#panel {
+    -fx-background-color:  #ff3333;
+}
+
+#fondo {
+    -fx-background-color: #0066cc;
+}
+
+#inicio{
+	-fx-background-image: url("escom.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#combo{
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: white;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+#combo .list-cell {
+    -fx-background-color: #ff3333;
+    -fx-text-fill: white;
+}
+
+#combo .list-cell:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #ff3333;
+}
+
+#combo .list-cell .label {
+    -fx-background-color: #ff3333;
+}
+
+/*
+#combo .jfx-text-field{
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: white;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+#combo .jfx-text-field .input-line {
+    -fx-background-color: white;
+}
+*/
+
+#texto {
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: white;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+#titulo2{
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: black;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 24px;
+    -fx-alignment: CENTER;
+    
+}
+
+#titulo1{
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: black;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 24px;
+    -fx-alignment: CENTER;
+    
+}
+
+.jfx-text-field{
+    -fx-prompt-text-fill: #ff8080;
+    -fx-text-fill: white;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+.jfx-text-field .input-line {
+    -fx-background-color: white;
+}
+.jfx-text-field .input-focused-line {
+    -fx-background-color: white;
+}
+
+#boton {
+    -fx-border-color: black;
+    -fx-border-radius: 0.5em ;
+    -fx-text-fill: black;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+}
+
+#boton_aft {
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 80px;
+    -fx-alignment: CENTER;
+}
+
+#boton:hover {
+    -fx-font-family: 'Adidas17';
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+    -fx-background-color: #123eff;
+    -fx-text-fill: white;
+}
+
+/*Raised button example */
+#btnRegresar {
+     -jfx-button-type: RAISED;
+     -fx-background-color: green;
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+}
+
+.jfx-date-picker .input-line {
+    -fx-background-color: white;
+}
+.jfx-date-picker .input-focused-line {
+    -fx-background-color: white;
+}
+
+.jfx-date-picker .jfx-text-field{
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-family: 'Adidas17';
+    -fx-prompt-text-fill: #ff8080;
+    -fx-font-size: 17;
+}
